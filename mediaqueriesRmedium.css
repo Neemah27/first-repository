@@ -1,0 +1,20 @@
+#div1, 
+    #div2{
+        display: none;
+    }
+    #div3 {display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+ #sec2{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+#sec3{
+    flex-direction: column;
+    height: 1000px;
+}

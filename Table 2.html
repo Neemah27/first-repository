@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Table.css">
+</head>
+<style>
+    * {
+        background-color: bisque;
+    }
+
+    #divOne {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        background-color: aqua;
+    }
+
+    .divOne {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background-color: antiquewhite;
+    }
+
+    #divTwo {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background-color: greenyellow;
+    }
+
+    .divTwo {
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background-color: blueviolet;
+    }
+
+    a:hover {
+        color: red;
+        background-color: greenyellow;
+    }
+
+    a:visited {
+        color: teal;
+    }
+
+    div:first-child {
+        background-color: aqua;
+    }
+
+    /* #divThree { background-color: brown; */
+
+
+    section>div:nth-child(even) {
+        background-color: red;
+    }
+
+    section>div:nth-child(odd) {
+        background-color: black;
+    }
+
+    #divOne {
+        width: 100%;
+        height: 100vh;
+        background-color: goldenrod;
+        background-image: url(https://s.yimg.com/uu/api/res/1.2/nj6w8mbFrQFBm_tQiX_F0w--~B/aD0yNjQ3O3c9MzczNztzbT0xO2FwcGlkPXl0YWNoeW9u/https://img.huffingtonpost.com/asset/5cb62e40230000c2006db3ac.jpeg), url(https://sports.inquirer.net/files/2020/12/2020-12-28T130948Z_1_LYNXMPEGBR0HR_RTROPTP_4_SOCCER-BRAZIL-NEYMAR-scaled.jpg);
+        background-size: 100px 100px;
+        background-position: right top, left bottom;
+        background-repeat: no-repeat;
+
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    #divTwo {
+        background-color: #DC0193;
+        width: 200px;
+        height: 200px;
+    }
+    #pOne {text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    #divThree{width: 50%;
+        height: 50vh;
+        background-color: blueviolet;
+
+    }
+</style>
+
+<body>
+     <a href="">Click here for more info...</a>
+    <!-- <div id="divOne"></div> -->
+    <div class="divOne"></div>
+    <div id="divTwo"></div>
+    <div class="divTwo"></div>
+
+    <br>
+    <section>
+        <div>Blue</div>
+        <div>Green</div>
+        <div id="divThree">Yellow</div>
+        <div>Red</div>
+        <div id="divFive">Black</div>
+        <div>White</div>
+        <div>Brown</div>
+        <div>Purple</div>
+        <div>Lilac</div>
+        <div>Teal</div>
+    </section>
+
+    <div id="divOne"></div>
+
+    <div id="divTwo"></div>
+    <p id="pOne">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, quibusdam.</p>
+    <div id="divThree"></div>
+</body>
+
+</html>

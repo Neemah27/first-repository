@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#testDiv{
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+    transition: ease 3s;
+}
+#testDiv:hover{
+    transform: rotate(45deg);
+}
+#testDiv2{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transition: ease 3s;
+}
+#testDiv2:hover{
+transform: translate(100px, 200px);
+}
+#testDiv3{
+    width: 200px;
+    height: 200px;
+    background-color: gainsboro;
+    transition: ease 3s;
+}
+#testDiv3:hover{
+    transform: scale(3, 4);
+    /* transform: scaleX(3); */
+    /* transform: scaleY(3); */
+}
+#testDiv4{
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    transition: 
+    ease 3s;
+}
+#testDiv4:hover{
+ /* transform: skewY(45deg); */
+ /* transform: skewX(-45deg); */
+ transform: skew(45deg, -45deg);
+}
+
+#sectionOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#divOne{
+width: 200px;
+height: 200px;
+background-color: brown;
+border-radius: 10px;
+position: absolute;
+animation-name: Neemah;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+@keyframes Neemah {
+    0%{
+        top: 0;
+        left: 0;
+    }
+  25%{
+    top: 0;
+    left: 1300px;
+    background-color: bisque;
+    border-radius: 100%;
+  }
+   50%{
+    top: 400px;
+    left: 1300px;
+    background-color: palevioletred;
+    border-radius: 30px;
+   }
+   75%{
+    top: 400px;
+    left: 0;
+    background-color: chartreuse;
+    border-radius: 20px;
+   }
+   100%{
+    top: 0;
+    left: 0;
+   }
+}
+
+.animate__flash {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 10px;
+    margin-left: 70px;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+
